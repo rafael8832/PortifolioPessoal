@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desenvolvedor-Rafael Bento</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="shortcut icon" href="./assets/images/dev-front-end.ico">
+</head>
+
+<body>
+
+    <a name="topo"></a>
+
+    <aside>
+
+        <div  id="menu-mob" class="menu-mobile">
+
+            <div id="menu-area" class="menu-opened">
+
+                <ul>
+                    
+                    <li><a href="#sobremim" onclick="menuToggle()">Sobre mim</a></li>
+                    <li><a href="#formacao" onclick="menuToggle()">Formação</a></li>
+                    <li><a href="#portifolio" onclick="menuToggle()">Portifólio</a></li>
+                    <li><a href="#contato" onclick="menuToggle()">Contato</a></li>
+
+                    <div>
+                        <a href="https://api.whatsapp.com/send?phone=5501514998084274" target="_blank"><img id="w-img" src="./assets/images/whatsapp.png" onmousemove= "trocaimg1();" onmouseout="trocaimg2();"/></a>
+                        <a href="https://www.instagram.com/rafael.bento.184/?hl=pt-br" target="_blank"><img id="s-img" src="./assets/images/instagram.png" onmousemove= "trocaimg3();" onmouseout="trocaimg4();"/></a>
+                    </div>
+
+                </ul>
+
+            </div>
+
+            <div id="menu-opener" onclick="menuToggle()">
+                <img src="./assets/images/menu.png" width="36">
+            </div>
+
+        </div>
+
+    </aside>
+
+    <header id="fixo" class="header">
+
+        <nav class="menu">
+            <ul>
+                <li><a href="#sobremim" >Sobre mim</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#portifolio">Portifólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+
+        <div  class="contato">
+            <a href="https://api.whatsapp.com/send?phone=5501514998084274" target="_blank"><img id="ww-img" src="./assets/images/whatsapp.png" onmousemove= "trocaimg5();" onmouseout="trocaimg6();"/></a>
+            <a href="https://www.instagram.com/rafael.bento.184/?hl=pt-br" target="_blank"><img id="ss-img" src="./assets/images/instagram.png" onmousemove= "trocaimg7();" onmouseout="trocaimg8();"/></a>
+        </div>
+
+    </header>
+
+    <section class="sobre">
+
+        <a name="sobremim"></a>
+
+        <div class="sobre-imagem" data-anime="esquerda">
+            <img src="./assets/images/sobremim.png" />
+        </div>
+
+        <div class="sobre-box" data-anime="direita">
+            <div class="sobre-box-desc">
+                <h3>Desenvolvedor FrontEnd</h3>
+                <h1>Rafael Bento</h1> 
+                <h2>Sobre Mim</h2> 
+                <p>Olá, me chamo Rafael Bento. Sou de Botucatu, cidade do interior de São Paulo. Tenho 32 anos, sou Técnologo em Informática, formado pela Fatec de Botucatu.</p> 
+                <p>Apesar da minha formação, nunca trabalhei na área. Porém, estou estudando e praticando. Estou buscando minha primeira oportunidade como Desenvolvedor de Front-End.</p> 
+                <p>Trabalhei na industria por 14 anos. Tenho perfil profissional de boa comunicação, organizado, observador e busco aprender e colaborar ao máximo.</p> 
+            </div>
+        </div>
+
+    </section>
+
+    <section class="formacao">
+
+        <a name="formacao"></a>
+
+        <div class="formacao-imagem mobile" data-anime="direita">
+            <img src="./assets/images/formacao.png"/>
+        </div>
+
+        <div class=formacao-box data-anime="esquerda"> 
+            <div class="formacao-box-desc">
+                <h3>minha </h3>
+                <h1>Formação</h1> 
+                <h2>Técnico em Informática para Internet</h2>
+                <p>Etec de 2010 a 2012 | Botucatu, São Paulo</p> 
+                <h2>Superior em Informática para Negócios</h2>
+                <p>Fatec de 2014 a 2017 | Botucatu, São Paulo</p> 
+                <h2>Programação B7web - 2021</h2> 
+                <p>HTML e CSS | JavaScript</p>
+                <button><a href="./assets/media/CV-Rafael Bento-Dev.pdf" download="CV-Rafael Bento" target="_blank">Baixar CV</a></button>
+            </div> 
+        </div>
+
+        <div class="formacao-imagem" data-anime="direita">
+            <img src="./assets/images/formacao.png"/>
+        </div>
+
+    </section>
+
+    <section class="portifolio">
+
+        <a name="portifolio"></a>
+
+        <div class="portifolio-titulo" data-anime="topo">
+            <h3>meu</h3>
+            <h1>Portifólio</h1> 
+        </div>
+
+        <div class="portifolio-geral">
+
+            <div class="portifolio-box" data-anime="topo">
+                <div class="portifolio-projetos">
+                    <img src="./assets/images/imc.png" alt=""/>
+                    <h2>Cálculo IMC</h2>
+                    <a href="https://calc-imc.netlify.app/" target="_blank">https://calc-imc.netlify.app/</a>
+                    <p>"Página criada para agregar o meu portifólio pessoal que executa o cálculo do IMC, foi usado HTML, CSS e JavaScript."</p> 
+                </div>
+            </div>
+
+            <div class="portifolio-box" data-anime="topo">
+                <div class="portifolio-projetos">
+                    <img src="./assets/images/eumimo.png" alt=""/>
+                    <h2>Eu Mimo Personalizados</h2>
+                    <a href="https://calc-imc.netlify.app/" target="_blank">https://calc-imc.netlify.app/</a>
+                    <p>"Página criada para Eu Mimo Personalizados, foi usado HTML, CSS, Bootstrap e JQuery."</p>
+                </div>
+            </div>
+
+            <div class="portifolio-box" data-anime="topo">
+                <div class="portifolio-projetos">
+                    <img src="./assets/images/imc.png" alt=""/>
+                    <h2>Cálculo IMC</h2>
+                    <a href="https://calc-imc.netlify.app/" target="_blank">https://calc-imc.netlify.app/</a>
+                    <p>"Página criada para agregar o meu portifólio pessoal que executa o cálculo do IMC, foi usado HTML, CSS e JavaScript."</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="formulario">
+
+        <a name="contato"></a>
+
+        <div class="formulario-titulo" data-anime="topo">
+            <h1>Entre em Contato</h1>
+            <h3>Em que eu posso lhe ajudar?</h3>
+        </div>
+
+        <form class="formulario-dados" name="form_contato" action="enviar.php" method="POST" onkeydown="limpar_erros()">
+
+            <div class="formulario-dados-linha">
+
+                <div class="formulario-dados-linha1" >
+                    <p>Seu nome<span>*</span></p>
+                    <input  maxlength="50" placeholder="Nome *" type="text" id="nome" name="nome" >
+                </div>
+
+                <div class="formulario-dados-linha2">
+                    <p>Seu telefone<span>*</span></p>
+                    <input placeholder="Telefone *" type="text" id="telefone" name="telefone" inputmode="numeric" onkeypress="mask(this, mphone);" onblur="mask(this, mphone);">
+                </div>
+
+            </div>
+        
+            <p>Seu E-mail<span>*</span></p>
+            <input  maxlength="50" placeholder="Email *" type="text" id="email" name="email">
+            <p>Sua mensagem<span>*</span></p>
+            <textarea  maxlength="400" placeholder="Mensagem *" id="mensagem" name="mensagem" cols="30" rows="10"></textarea>
+            <p><span>*</span>Todos os campos são Obrigatórios</p>
+            <button type="submit" name="bt" onclick="return validar()"><a href="">Enviar</a></button> 
+
+        </form>
+
+    </section>
+
+    <footer class="rodape">
+
+        <div class="rodape-conteudo">
+
+            <div class="rodape-contato">
+                <h2>Entre em Contato</h2>
+                <h3>E-Mail</h3>
+                <p>rafaelbento.23@gmail.com</p>
+                <h3>Telefone</h3> 
+                <p>(14) 99808-4274</p> 
+                <h3>Endereço</h3> 
+                <p>Botucatu, São Paulo</p>
+            </div>
+
+            <div class="topo">
+                <a href="#topo" title="Topo da Página"><button ></button></a>
+            </div>
+
+            <div class="redes-sociais">
+                <h2>Redes Sociais</h2>
+                <div class="redes-sociais-icone">
+                    <a href="https://api.whatsapp.com/send?phone=5501514998084274" target="_blank"><img id="www-img" src="./assets/images/whatsapp.png" onmousemove= "trocaimg9();" onmouseout="trocaimg10();"/></a>
+                    <a href="https://www.instagram.com/rafael.bento.184/?hl=pt-br" target="_blank"><img id="sss-img" src="./assets/images/instagram.png" onmousemove= "trocaimg11();" onmouseout="trocaimg12();"/></a>
+                </div>
+                <div class="redes-sociais-link">
+                    <a href="https://github.com/rafael8832" target="_blank">GitHub</a>
+                    <a href="https://codepen.io/rafael8832" target="_blank">CodePen</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="rodape-fim">
+            <hr>
+            <p>© Rafael Bento 2021 - Desenvolvedor FrontEnd - Todos os Direitos Reservados.</p>
+        </div>
+
+    </footer>
+
+    <script src="./assets/js/script.js"></script>
+
+</body>
+</html>
