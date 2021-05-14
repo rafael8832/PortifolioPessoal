@@ -120,7 +120,7 @@ aside .menu-mobile .menu-opened ul{
 }
 
 #menu-area li a:hover {
-    color:#2170a1;
+    color:#2A363B;
 }
 
 /*Header*/
@@ -151,9 +151,9 @@ aside .menu-mobile .menu-opened ul{
 }
 
 .menu ul li a:hover{
-    color: #2170a1;
+    color: #2A363B;
     font-weight: 600;
-    border-bottom: 2px solid #2170a1;
+    border-bottom: 2px solid #2A363B;
 }
 
 .contato{
@@ -201,7 +201,7 @@ aside .menu-mobile .menu-opened ul{
     padding: 30px;
     border-radius: 30px;
     text-align: justify;
-    background-color:#2170a1;
+    background-color:#2A363B;
 }
 
 .sobre .sobre-box .sobre-box-desc h1{
@@ -255,7 +255,7 @@ aside .menu-mobile .menu-opened ul{
 }
 
 .formacao .formacao-box .formacao-box-desc{
-    background-color:#FC872A;
+    background-color:#bdb5b5;
     margin: 80px;
     padding: 30px;
     border-radius: 30px;
@@ -281,11 +281,11 @@ aside .menu-mobile .menu-opened ul{
     padding: 15px;
     border-radius: 30px;
     border: none;
-    background-color: #2170a1;
+    background-color: #2A363B;
 }
 
 .formacao .formacao-box .formacao-box-desc button:hover{
-    background-color: #1e8de9;
+    background-color: #000;
     transition: 0.5s;
 }
 
@@ -302,10 +302,10 @@ aside .menu-mobile .menu-opened ul{
 .portifolio{
     display: flex;
     flex-direction: column;
-    background-image: linear-gradient(to right,#2170a1,#eb8608);
+    background-image: linear-gradient(to right,#2A363B,#bdb5b5);
     border-top: 10px solid;
     border-bottom: 10px solid;
-    border-image-source: linear-gradient(to left,#2170a1,#eb8608);
+    border-image-source: linear-gradient(to left,#2A363B,#bdb5b5);
     border-image-slice: 1;
 }
 
@@ -370,7 +370,7 @@ aside .menu-mobile .menu-opened ul{
     width: 150px;
     height: 150px;
     border-radius: 76px;
-    border: 8px solid #2170a1;
+    border: 8px solid #2A363B;
     margin-bottom: 100px;
 }
 
@@ -497,14 +497,14 @@ aside .menu-mobile .menu-opened ul{
     margin-top: 20px;
     margin-bottom: 40px;
     padding: 15px 30px;
-    background-color: #2170a1;
+    background-color: #2A363B;
     border: none;
     border-radius: 30px;
     width: 200px;
 }
 
 .formulario .formulario-dados button:hover{
-    background-color: #1e8de9;
+    background-color: #000;
     transition: 0.5s;
 }
 
